@@ -1,0 +1,73 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  margin: 15px;
+  transition: .3s;
+}
+
+.App h1:hover {
+  scale: 1.1;
+}
+
+.App form {
+  display: flex;
+  padding: 15px;
+  gap: 15px;
+  margin: 15px 0 25px;
+}
+
+.input-text {
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  font-weight: bold;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.confirm:hover {
+  background-color: #0f730c;
+}
+
+.cancel:hover {
+  background-color: #dc3545;
+}
+
+.App p {
+  color: rgb(97, 96, 96);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px 75px;
+  min-height: 60vh;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 10px 0px;
+  padding: 10px;
+  margin: 10px;
+  transition: .3s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
